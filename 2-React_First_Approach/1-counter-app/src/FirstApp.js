@@ -2,11 +2,14 @@ import React from 'react';
 
 // Functional Component
 const FirstApp = () => {
-    const number = [1, 2, 3, 4, 5, 6];
+    const person = {
+        name: 'Cristhian',
+        age: 27
+    };
 
     return (
         <>
-            <h1> { number } </h1>
+            <h1> { JSON.stringify(person) } </h1>
             <p>My first application</p>
         </>
     );
