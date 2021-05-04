@@ -2,11 +2,11 @@ import React from 'react';
 
 // Functional Component
 const FirstApp = () => {
-    const greeting = "Hello everyone!";
+    const number = [1, 2, 3, 4, 5, 6];
 
     return (
         <>
-            <h1> { greeting } </h1>
+            <h1> { number } </h1>
             <p>My first application</p>
         </>
     );
