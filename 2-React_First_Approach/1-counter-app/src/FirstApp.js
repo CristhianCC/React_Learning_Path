@@ -1,10 +1,10 @@
 import React from 'react';
 
 // Functional Component
-const FirstApp = (props) => {
+const FirstApp = ({greeting}) => {
     return (
         <>
-            <h1> {this.props.greeting} </h1>
+            <h1> {greeting} </h1>
             <p>My first application</p>
         </>
     );
