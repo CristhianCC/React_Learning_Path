@@ -1,15 +1,10 @@
 import React from 'react';
 
 // Functional Component
-const FirstApp = () => {
-    const person = {
-        name: 'Cristhian',
-        age: 27
-    };
-
+const FirstApp = (props) => {
     return (
         <>
-            <h1> { JSON.stringify(person) } </h1>
+            <h1> {this.props.greeting} </h1>
             <p>My first application</p>
         </>
     );
