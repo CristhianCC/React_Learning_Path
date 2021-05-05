@@ -1,11 +1,10 @@
 
 
-test( 'this is my first test', () => {
+test( 'should string be equal', () => {
 
-    const isActive = true;
+    const message = 'Hello World';
 
-    if ( isActive ) {
-        throw new Error('It is not active');
-    }
+    const message2 = `Hello World`;
 
+    expect( message ).toBe( message2 );
 })
