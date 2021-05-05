@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 // Functional Component
-const FirstApp = ({greeting = 'Hello, Cristhian!'}) => {
+const FirstApp = ({greeting}) => {
     return (
         <>
             <h1> {greeting} </h1>
