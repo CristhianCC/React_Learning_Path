@@ -1,8 +1,8 @@
-import React from "react";
-import { number } from 'prop-types';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 
-const CounterApp = (number) => {
+const CounterApp = ({ number }) => {
     return (
         <>
             <h1>CounterApp</h1>
@@ -12,7 +12,7 @@ const CounterApp = (number) => {
 };
 
 CounterApp.propTypes = {
-    number: number
+    number: PropTypes.number
 }
 
 export default CounterApp;
