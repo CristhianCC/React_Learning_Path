@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Functional Component
-const FirstApp = ({greeting}) => {
+const FirstApp = ({greeting = 'Hello, Cristhian!'}) => {
     return (
         <>
             <h1> {greeting} </h1>
