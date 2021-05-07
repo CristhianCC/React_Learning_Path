@@ -13,7 +13,6 @@ describe( 'Tests in 07-deses-arr.test.js', () => {
         expect( numbers ).toBe( 123 );
         expect( typeof numbers ).toBe( 'number' );
     });
-
 });
 
 
