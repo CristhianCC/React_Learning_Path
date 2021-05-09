@@ -12,7 +12,8 @@ const FirstApp = ({ greeting, subtitle }) => {
 }
 
 FirstApp.propTypes = {
-    greeting: PropTypes.string.isRequired
+    greeting: PropTypes.string.isRequired,
+    subtitle: PropTypes.string
 }
 
 FirstApp.defaultProps = {
