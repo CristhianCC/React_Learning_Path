@@ -5,8 +5,8 @@ import PropTypes from 'prop-types';
 const FirstApp = ({ greeting, subtitle }) => {
     return (
         <>
-            <h1> { greeting } </h1>
-            <p> { subtitle } </p>
+            <h1>{ greeting }</h1>
+            <p id="text">{ subtitle }</p>
         </>
     );
 }

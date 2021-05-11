@@ -3,14 +3,12 @@
 exports[`Testing FirstApp should return <FirstApp /> correctly 1`] = `
 <Fragment>
   <h1>
-     
     Hello, Im Cristhian
-     
   </h1>
-  <p>
-     
+  <p
+    id="text"
+  >
     I am a subtitle
-     
   </p>
 </Fragment>
 `;
